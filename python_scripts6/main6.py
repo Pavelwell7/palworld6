@@ -1,6 +1,3 @@
-password = input('Введите пароль: ')
-
-
 def calculate_password_score(password):
     score = 0
     password_length = len(password)
@@ -17,10 +14,8 @@ def calculate_password_score(password):
     return score
 
 
-score = calculate_password_score(password)
-print(f'Рейтинг пароля: {score}')
-
-
-if __name__ == '__calculate_password_score(password)__':
-    calculate_password_score(password)
+if __name__ == '__main__':
+    password = input('Введите пароль: ')
+    score = calculate_password_score(password)
+    print(f'Рейтинг пароля: {score}')
     
